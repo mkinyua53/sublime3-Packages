@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Emmet",
 		"Laravel Blade Highlighter",
 		"Package Control",
 		"SideBarEnhancements",
