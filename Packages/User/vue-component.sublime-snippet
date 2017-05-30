@@ -1,0 +1,39 @@
+<snippet>
+	<content><![CDATA[
+<template>
+	<div></div>
+</template>
+
+<script>
+	export default {
+		data() {
+			return {
+				${1:data}: '${2:}',
+			}
+		},
+		methods: {
+			somemethod() {
+				${3://}
+			}
+		},
+		created() {
+			this.somemethod()
+		},
+		computed: {
+			${5://}
+		},
+		watch: {
+			'${6:\$route}': 'somemethod'
+		}
+	}
+</script>
+
+<style>
+	${7:/**/}
+</style>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>helloVue</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
