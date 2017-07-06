@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+swal({title:'${1:Deleted}',type:'success',timer:1500})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>swaltimed</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

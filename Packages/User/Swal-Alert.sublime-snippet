@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+swal({
+	title: ${1:title},
+	text: '${2:text}',
+	type: 'warning',
+	showCancelButton: true,
+	confirmButtonColor: '${3:red}',
+	confirmButtonText:'${4:Ok}',
+	closeOnConfirm: true,
+	showLoaderOnConfirm: false
+},
+function(){
+	${5:axios}
+}.bind(this))
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>swalc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
