@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+if (this.\$${2:store}.getters.${1:subject}s.length > 0) {
+  var intended = this.\$${2:store}.getters.${1:subject}s.filter((${1:subject}s) => {
+    return ${1:subject}s.id == this.\$${3:route}.params.${1:subject}
+  })
+  if (intended.length > 0) {
+    this.\$${2:store}.commit('${1:subject}',{ ${1:subject}: _.head(intended) })
+  }
+  else {
+    this.\$${2:store}.commit('${1:subject}', { ${1:subject}: {} })
+  }
+}
+this.\$${2:store}.commit('nowLoading')
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>checkData</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+'n': function() {
+  if (this.n < 1) {
+    this.n = 1
+  }
+  if (this.n > this.${1:books}.length) {
+    this.n = this.${1:books}.length
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>watchn</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

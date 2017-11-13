@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<span v-if="sort.column === '${1:column}'">
+  <i :class="[sort.order === 'asc' ? 'fa-sort-asc' : 'fa-sort-desc','fa']" aria-hidden="true"></i>
+  <span class="sr-only">Sorted by <span v-if="sort.order === 'asc'">ascending</span><span v-else>descending</span> order.</span>
+</span>
+<i class="fa fa-sort" aria-hidden="true" title="Click to sort" v-else></i>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>sort</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

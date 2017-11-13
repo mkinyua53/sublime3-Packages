@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+getSort(value) {
+  if (this.sort.column === value) {
+    this.reverseSortOrder()
+  }
+  else {
+    this.sort.column = value
+  }
+},
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>getsort</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

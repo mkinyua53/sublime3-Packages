@@ -1,5 +1,5 @@
 {
-	"font_size": 15,
+	"font_size": 14,
 	"ignored_packages":
 	[
 		"ActionScript",
@@ -31,5 +31,7 @@
 		"TCL",
 		"Textile"
 	],
-	"save_on_focus_lost": true
+	"save_on_focus_lost": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true
 }

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+var id = this.\$${2:store}.getters.${1:subject}
+var intended = this.\$${3:route}.params.${1:subject}
+
+if (id && id == intended) {
+  return
+}
+else {
+  this.fetchData()
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>fetchData</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<form class="form-inline has-success" id="per-page-form" v-if="${1:books}.length > 0">
+  <div class="input-group">
+    <input type="number" class="form-control input-sm" v-model.number="n" :max="${1:books}.length" :min="1" id="n">
+    <div class="input-group-addon">Per Page</div>
+  </div>
+</form>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>perpage</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
