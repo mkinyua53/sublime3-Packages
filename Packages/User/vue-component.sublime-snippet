@@ -3,6 +3,7 @@
 <template>
 	<transition name="">
 		<div class="container-fluid">
+			<title>${1:title}</title>
 			<h3 class="text-center">${1:title}</h3>
 			<div class="row">
 

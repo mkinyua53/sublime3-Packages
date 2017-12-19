@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+swal({
+  title: '${1:Updating}',
+  text: '<i class="fa fa-2x fa-spinner fa-pulse"></i>',
+  type: 'warning',
+  showCancelButton: false,
+  showConfirmButton: false,
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>swal-update</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
