@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-getSort(value) {
+getSort (value) {
   if (this.sort.column === value) {
     this.reverseSortOrder()
   }

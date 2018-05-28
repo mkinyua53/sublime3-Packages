@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-swal('Error '+err.status+': '+err.statusText,'Failed to ${1:Restore}','error')
+swal('Error '+${2:err}.status+': '+${2:err}.statusText, 'Failed to ${1:Restore}', 'error')
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>swal</tabTrigger>

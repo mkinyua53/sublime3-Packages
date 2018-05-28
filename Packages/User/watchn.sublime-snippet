@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-'n': function() {
+'n': function () {
   if (this.n < 1) {
     this.n = 1
   }

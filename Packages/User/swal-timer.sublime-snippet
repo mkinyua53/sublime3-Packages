@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-swal({title:'${1:Deleted}',type:'success',timer:1500})
+swal({ title:'${1:Deleted}', type:'success', timer:${2:1500} })
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>swaltimed</tabTrigger>

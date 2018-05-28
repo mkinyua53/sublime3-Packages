@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-<form class="form-inline has-success" id="per-page-form" v-if="${1:books}.length > 0">
+<form class="form-inline has-success" id="per-page-form"${2: v-if="${1:books}.length > 0"}>
   <div class="input-group">
-    <input type="number" class="form-control input-sm" v-model.number="n" :max="${1:books}.length" :min="1" id="n">
+    <input type="number" class="form-control input-sm" v-model.number="${3:n}" :max="${1:books}.length" :min="1" id="${3:n}">
     <div class="input-group-addon">Per Page</div>
   </div>
 </form>

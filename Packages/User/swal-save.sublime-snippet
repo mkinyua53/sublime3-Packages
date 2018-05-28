@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 swal({
-  title: 'Saving',
+  title: '${1:Saving}',
   text: '<i class="fa fa-spin fa-refresh"></i>',
   type: 'warning',
   showCancelButton: false,

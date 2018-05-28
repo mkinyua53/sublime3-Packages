@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-reverseSortOrder() {
+reverseSortOrder () {
   if (this.sort.order === 'asc') {
     this.sort.order = 'desc'
   }

@@ -15,17 +15,17 @@
 <script>
 	export default {
 		name: '${1:title}',
-		data() {
+		data () {
 			return {
 				${2:data}: '${3:}',
 			}
 		},
 		methods: {
-			somemethod() {
+			somemethod () {
 				${4://}
 			}
 		},
-		created() {
+		created () {
 			this.somemethod()
 		},
 		computed: {

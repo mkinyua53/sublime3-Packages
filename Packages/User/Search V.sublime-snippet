@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<v-text-field label="${4:Search}" v-model="${3:filterBy}" prepend-icon="search" ${2::disabled="${1:exams}.length < 1" }:append-icon="${3:filterBy}.length > 0 ? 'close' : ''" :append-icon-cb="() => (${3:filterBy} = '')"></v-text-field>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>searchv</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
